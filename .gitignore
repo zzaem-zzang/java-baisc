@@ -1,4 +1,10 @@
+# =========================
+# IDE
+# =========================
+
 ### IntelliJ IDEA ###
+.idea/
+*.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -9,7 +15,7 @@ out/
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 bin/
@@ -26,5 +32,26 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+# =========================
+# Build / Dependencies
+# =========================
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# =========================
+# OS
+# =========================
+
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
